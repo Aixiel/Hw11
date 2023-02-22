@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: verdana;
+}
+
+.container{
+    background: #524f6be2;
+    border-radius: 20px;
+    display: flex;
+    padding: 50px;
+    color:white;
+    margin-top: 160px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+img{
+    min-width: 25vw;
+    height: 25vw;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 20px;
+    object-fit:cover;
+}
+p{
+    margin-top: 30px;
+    margin-right:30px;
+}
+

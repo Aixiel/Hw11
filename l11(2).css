@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+.parent{
+display: flex;
+border: 3px solid red;
+padding: 20px;
+}
+.child{
+    height: 120px;
+    width: calc(100%/4);
+    background: #dbd8d8;
+    margin-right: 20px;
+}
+.child:last-child{
+    margin-right: 0;
+}
